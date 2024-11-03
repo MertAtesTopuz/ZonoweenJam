@@ -9,6 +9,8 @@ public class UmitClothes : MonoBehaviour
     public GameObject KPants;
     public GameObject KGuitar;
 
+    public bool umitOpen =false;
+
     public AudioSource audioSource;
     public AudioClip yippi;
 
@@ -52,6 +54,9 @@ public class UmitClothes : MonoBehaviour
 
     private void AllCheck()
     {
-       
+       if(KBelt.activeSelf == true && KGuitar.activeSelf == true && KHat.activeSelf == true && KPants.activeSelf == true && KShirt.activeSelf == true && KShose.activeSelf == true)
+        {
+            umitOpen = true;
+        }
     }
 }

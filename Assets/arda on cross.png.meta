@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arda on cross_0: 7529464042242788383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

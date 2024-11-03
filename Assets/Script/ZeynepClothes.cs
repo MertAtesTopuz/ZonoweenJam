@@ -7,6 +7,8 @@ public class ZeynepClothes : MonoBehaviour
     public GameObject PHat;
     public GameObject PShose;
 
+    public bool zeynepOpen = false;
+
     public AudioSource audioSource;
     public AudioClip yippi;
 
@@ -42,6 +44,9 @@ public class ZeynepClothes : MonoBehaviour
 
     private void AllCheck()
     {
-        
+        if(PShirt.activeSelf == true && PShose.activeSelf == true && PHat.activeSelf == true && PSkirt.activeSelf == true)
+        {
+            zeynepOpen = true;
+        }
     }
 }

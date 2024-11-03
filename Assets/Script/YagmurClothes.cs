@@ -5,6 +5,8 @@ public class YagmurClothes : MonoBehaviour
     public GameObject SSuit;
     public GameObject SShose;
 
+    public bool yagmurOpen = false;
+
     public AudioSource audioSource;
     public AudioClip yippi;
 
@@ -32,6 +34,9 @@ public class YagmurClothes : MonoBehaviour
 
     private void AllCheck()
     {
-       
+       if(SShose.activeSelf == true && SSuit.activeSelf == true)
+        {
+            yagmurOpen = true;
+        }
     }
 }

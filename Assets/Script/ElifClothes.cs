@@ -8,6 +8,8 @@ public class ElifClothes : MonoBehaviour
     public GameObject NBandana;
     public GameObject NKimono;
 
+    public bool elifOpen = false;
+
     public AudioSource audioSource;
     public AudioClip yippi;
 
@@ -49,7 +51,7 @@ public class ElifClothes : MonoBehaviour
     {
         if(NShirt.activeSelf == true && NPants.activeSelf == true && NNecles.activeSelf == true && NBandana.activeSelf == true && NKimono.activeSelf == true)
         {
-            
+            elifOpen = true;
         }
     }
 }
