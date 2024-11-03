@@ -42,9 +42,6 @@ public class ZeynepClothes : MonoBehaviour
 
     private void AllCheck()
     {
-        if(PShirt.activeSelf == true && PSkirt.activeSelf == true && PHat.activeSelf == true && PShose.activeSelf == true )
-        {
-            audioSource.PlayOneShot(yippi);
-        }
+        
     }
 }

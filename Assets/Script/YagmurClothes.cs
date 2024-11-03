@@ -32,9 +32,6 @@ public class YagmurClothes : MonoBehaviour
 
     private void AllCheck()
     {
-        if(SSuit.activeSelf == true && SShose.activeSelf == true)
-        {
-            audioSource.PlayOneShot(yippi);
-        }
+       
     }
 }

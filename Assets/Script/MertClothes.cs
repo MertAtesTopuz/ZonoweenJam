@@ -45,9 +45,6 @@ public class MertClothes : MonoBehaviour
 
     private void AllCheck()
     {
-        if(OBPants.activeSelf == true && OBShirt.activeSelf == true && OBTie.activeSelf == true && OBGlass.activeSelf == true && OBShose.activeSelf == true && OBGun.activeSelf == true)
-        {
-            audioSource.PlayOneShot(yippi);
-        }
+        
     }
 }

@@ -6,6 +6,7 @@ public class HarunClothes : MonoBehaviour
     public GameObject JScarf;
     public GameObject JBread;
     public GameObject JWine;
+    public GameObject JBelt;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -27,6 +28,9 @@ public class HarunClothes : MonoBehaviour
                 break;
                 case "JesusWine":
                 JWine.SetActive(true);
+                break;
+                case "JesusBelt":
+                JBelt.SetActive(true);
                 break;
             }
             Destroy(other.gameObject);
