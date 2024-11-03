@@ -1752,7 +1752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 166475433163162737, guid: 168c87d327099bb44902b52d7b7839fd, type: 3}
       propertyPath: m_SortingLayerID
-      value: -1310023371
+      value: -388873559
       objectReference: {fileID: 0}
     - target: {fileID: 166475433163162737, guid: 168c87d327099bb44902b52d7b7839fd, type: 3}
       propertyPath: m_WasSpriteAssigned
