@@ -47,5 +47,8 @@ TagManager:
   - name: UI
     uniqueID: 1655487543
     locked: 0
+  - name: Elevator
+    uniqueID: 2984943925
+    locked: 0
   m_RenderingLayers:
   - Default
