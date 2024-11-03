@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7521811372166145073}
   - component: {fileID: 7824155708501496282}
-  - component: {fileID: 6247395591731021499}
   - component: {fileID: 272149096115962570}
   - component: {fileID: 8663284880739641296}
   - component: {fileID: 5007185163697728471}
   - component: {fileID: 2846809360079623168}
+  - component: {fileID: 1166793291587714132}
   m_Layer: 5
   m_Name: Slot (1)
   m_TagString: Untagged
@@ -49,33 +49,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6908885337932411842}
   m_CullTransparentMesh: 1
---- !u!114 &6247395591731021499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6908885337932411842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4562eaf698596534984771b21556ae18, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!114 &272149096115962570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,8 +64,8 @@ MonoBehaviour:
   image: {fileID: 0}
   selectedColor: {r: 1, g: 1, b: 1, a: 1}
   notSelectedColor: {r: 1, g: 1, b: 1, a: 1}
-  selected: {fileID: -1752430859451195970, guid: 0512fc9c5dd4f54499e74e4ea957b1fe, type: 3}
-  notSelected: {fileID: -3275109787334847381, guid: 4562eaf698596534984771b21556ae18, type: 3}
+  selected: {fileID: 21300000, guid: 764c9832e38b44543a98a42bd924fe91, type: 3}
+  notSelected: {fileID: 21300000, guid: bf9f8391a2817c6418258b0c403d2ce7, type: 3}
 --- !u!61 &8663284880739641296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -190,3 +163,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1166793291587714132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6908885337932411842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 764c9832e38b44543a98a42bd924fe91, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

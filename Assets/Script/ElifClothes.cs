@@ -47,6 +47,9 @@ public class ElifClothes : MonoBehaviour
 
     private void AllCheck()
     {
-        
+        if(NShirt.activeSelf == true && NPants.activeSelf == true && NNecles.activeSelf == true && NBandana.activeSelf == true && NKimono.activeSelf == true)
+        {
+            
+        }
     }
 }

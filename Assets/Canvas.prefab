@@ -468,7 +468,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1655487543
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &4323084227064707092
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.2754717, g: 0.2754717, b: 0.2754717, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1386,6 +1386,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1692726846223568023}
     m_Modifications:
+    - target: {fileID: 272149096115962570, guid: c0c5fd316e650844483e2a1993b90262, type: 3}
+      propertyPath: selected
+      value: 
+      objectReference: {fileID: 21300000, guid: bf9f8391a2817c6418258b0c403d2ce7, type: 3}
+    - target: {fileID: 272149096115962570, guid: c0c5fd316e650844483e2a1993b90262, type: 3}
+      propertyPath: notSelected
+      value: 
+      objectReference: {fileID: 21300000, guid: 764c9832e38b44543a98a42bd924fe91, type: 3}
+    - target: {fileID: 6247395591731021499, guid: c0c5fd316e650844483e2a1993b90262, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 764c9832e38b44543a98a42bd924fe91, type: 3}
     - target: {fileID: 6908885337932411842, guid: c0c5fd316e650844483e2a1993b90262, type: 3}
       propertyPath: m_Name
       value: Slot (1)
