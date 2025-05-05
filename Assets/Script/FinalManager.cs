@@ -15,7 +15,6 @@ public class FinalManager : MonoBehaviour
 
     void Start()
     {
-        audioSource.PlayOneShot(Background);
     }
 
     public void SceneChange()
